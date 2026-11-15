@@ -6,7 +6,7 @@ const studentRoutes = require("./routes/student.routes");
 
 app.use(express.json());
 
-app.use("/api", studentRoutes);
+app.ise("/api", studentRoutes);
 
 app.get("/", (req, res) => {
     res.send("Student Management System API");
